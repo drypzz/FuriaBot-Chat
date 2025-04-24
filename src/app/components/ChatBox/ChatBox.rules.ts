@@ -7,6 +7,8 @@ interface MessageType {
     sender: 'user' | 'bot'
 };
 
+const API_URL = 'https://furia-bot-nv0j.onrender.com/chat';
+
 const INITIAL_GREETING: MessageType = {
     text: 'Olá! Eu sou o FURIABOT. Como posso ajudar?',
     sender: 'bot',
@@ -44,7 +46,7 @@ export default function useChatBoxRules() {
         setLoading(true)
 
         try {
-            const response = await axios.post('https://api-furiabot.onrender.com/chat', { message: trimmedInput })
+            const response = await axios.post(API_URL, { message: trimmedInput })
 
             const botMessage: MessageType = { text: response.data.reply, sender: 'bot' }
             setMessages((prev) => [...prev, botMessage])
