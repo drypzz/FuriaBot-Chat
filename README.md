@@ -4,6 +4,8 @@ Uma interface moderna, interativa e responsiva para o chatbot oficial da FURIA, 
 
 ![FURIABOT Interface Screenshot](./public/screenshot.png)
 
+Link: [FuriaBot](https://furiabotchat.vercel.app/)
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -34,3 +36,20 @@ Uma interface moderna, interativa e responsiva para o chatbot oficial da FURIA, 
 ```bash
 git clone https://github.com/drypzz/FuriaBot-Chat.git
 cd FuriaBot-Chat
+```
+
+### 2. Instalar dependencias
+```cmd
+npm install
+```
+
+### 3. Rodar o projeto
+```cmd
+npm run dev
+```
+
+Servidor rodando em: `http://localhost:3000`
+
+---
+
+> by drypzz

@@ -23,7 +23,6 @@ export default function ChatBox() {
       <Paper
         elevation={3}
         sx={{
-          // p: 1,
           height: '75vh',
           display: 'flex',
           flexDirection: 'column',
