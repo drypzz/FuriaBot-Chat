@@ -6,7 +6,7 @@ export default function LoadingDots() {
   return (
     <>
       <Box display="flex" alignItems={"center"} justifyContent={"flex-start"}>
-        <Avatar src="/logo.png" alt='FURIABOT' sx={{ width: 30, height: 30, mr: 1.5, backgroundColor: 'rgba(0, 0, 0, .2)', padding: '5px' }} />
+        <Avatar src="/logo.png" alt='FURIABOT' sx={{ width: 30, height: 30, mr: 2, backgroundColor: 'white', padding: '5px' }} />
         {[0, 1, 2].map((i) => (
           <>
             <motion.div

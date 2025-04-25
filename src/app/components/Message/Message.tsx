@@ -33,7 +33,7 @@ export default function Message({ text, sender }: Props) {
               width: 30,
               height: 30,
               mr: 1,
-              backgroundColor: 'rgba(0, 0, 0, .2)',
+              backgroundColor: 'white',
               padding: '5px',
             }}
           />

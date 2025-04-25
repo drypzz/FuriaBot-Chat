@@ -42,7 +42,7 @@ export default function ChatBox() {
           },
           "::-webkit-scrollbar-thumb": {
             backgroundColor: 'rgba(0, 0, 0, .2)',
-            borderRadius: '10px',
+            borderRadius: '15px',
           }
         }}>
           {messages.map((msg, idx) => (
@@ -78,7 +78,6 @@ export default function ChatBox() {
             color: 'white',
             transition: 'all 0.3s ease-in-out',
             '&:hover': {
-              transform: 'scale(1.2)',
               color: '#00bcd4',
             }
           }}>
